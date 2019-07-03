@@ -1,0 +1,12 @@
+*.class
+*.ipr
+target/
+*.project
+*.rar
+*.iws
+*.iml
+*.dll
+*.classpath
+*.myhibernatedata
+.settings/
+.idea/
