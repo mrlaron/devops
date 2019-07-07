@@ -20,8 +20,6 @@
     </properties>
 
 
-
-
     <distributionManagement>
         <repository>
             <id>release</id>
@@ -31,6 +29,7 @@
         <snapshotRepository>
             <id>snapshot</id>
             <name>snapshots</name>
+
             <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
@@ -41,7 +40,6 @@
         <url>git@github.com:mrlaron/devops.git</url>
         <tag>HEAD</tag>
     </scm>
-
 
 
     <dependencies>
@@ -77,10 +75,6 @@
             <version>13.0</version>
             <scope>compile</scope>
         </dependency>
-
-
-
-
 
 
     </dependencies>
