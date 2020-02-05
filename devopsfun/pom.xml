@@ -16,7 +16,15 @@
     <description>Demo project for Spring Boot</description>
 
     <properties>
-        <java.version>1.8</java.version>
+        <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <version.java>1.8</version.java>
+        <version.javaee>8.0.1</version.javaee>
+        <!--Plugins-->
+        <version.assembly.plugin>2.2-beta-5</version.assembly.plugin>
+        <version.compiler.plugin>3.8.0</version.compiler.plugin>
+        <version.dependency.plugin>2.8</version.dependency.plugin>
+        <version.war.plugin>3.2.2</version.war.plugin>
     </properties>
 
 
@@ -24,7 +32,7 @@
         <repository>
             <id>release</id>
             <name>release</name>
-            <url>http://localhost:8081/artifactory/libs-release-local</url>
+                <url>http://localhost:8081/artifactory/libs-release-local</url>
 
         </repository>
         <snapshotRepository>
@@ -39,7 +47,7 @@
         <developerConnection>scm:git:ssh://git@github.com:mrlaron/devops.git</developerConnection>
         <url>git@github.com:mrlaron/devops.git</url>
 
-      <tag>v1.1.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
 
