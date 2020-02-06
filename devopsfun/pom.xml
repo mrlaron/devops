@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.devopsfun</groupId>
     <artifactId>demo</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
@@ -44,12 +44,12 @@
 
     <scm>
 
-        <connection>scm:git:ssh://git@github.com:mrlaron/devops.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:mrlaron/devops.git</developerConnection>
-        <url>git@github.com:mrlaron/devops.git</url>
+        <connection>scm:git:https://github.com/mrlaron/devops.git</connection>
+        <developerConnection>scm:git:https://github.com/mrlaron/devops.git</developerConnection>
+        <url>https://github.com/mrlaron/devops.git</url>
 
 
-      <tag>v1.0.0</tag>
+      <tag>head</tag>
   </scm>
 
 
