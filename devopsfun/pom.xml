@@ -43,9 +43,11 @@
     </distributionManagement>
 
     <scm>
+
         <connection>scm:git:ssh://git@github.com:mrlaron/devops.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:mrlaron/devops.git</developerConnection>
         <url>git@github.com:mrlaron/devops.git</url>
+
 
       <tag>v1.0.0</tag>
   </scm>
