@@ -10,3 +10,4 @@ target/
 *.myhibernatedata
 .settings/
 .idea/
+/.metadata/
